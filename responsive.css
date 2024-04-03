@@ -1,0 +1,175 @@
+@media all and (min-width: 1236px) and (max-width: 100%){
+
+    
+}
+@media all and (min-width: 993px) and (max-width: 1235px){
+    
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+    
+}
+@media all and (min-width: 600px) and (max-width: 667px){
+    
+}
+@media all and (min-width: 360px) and (max-width: 599px){
+    .img-second img {
+    left: 238px;
+    width: 30%;
+}
+.salogon ul li {
+    text-align: start;
+    padding: 0px 10px;
+}
+.salogon {
+    padding-top: 42px;
+}
+.accordion-1-body {
+    height: 68vh;
+}
+.accordion-item:nth-child(2) .header-image img {
+    margin-right: 12px;
+    margin-top: -2px;
+    width: 100px;
+}
+.accordion-2 .accordion-body .content {
+    font-size: 17px;
+    width: 100%;
+    text-align: justify;
+    /* padding-left: 150px; */
+    padding-top: 87px;
+    text-align: center;
+}
+
+.accordion-body .container {
+    position: relative;
+    padding: 0px;
+}
+.accordion-2 {
+    padding: 0 !important;
+}
+.accordion-2 .accordion-body .container{
+    display: flex;
+    flex-direction: column;
+}
+.accordion-2 .accordion-body .content {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+}
+.accordion-2 .cards-3 .header-img-3 img {
+   width: 100px;
+}
+.handshake-image {
+    bottom: 0px;
+    top: -40px;
+    left: 70px;
+}
+.header-img-3 {
+    margin-left: 265px;
+    position: relative;
+    top: 20px;
+}
+.content3 .img3-content h1 {
+    font-size: 33px;
+    line-height: 36px;
+}
+.header-img-4 img {
+    margin-right: 255px;
+    margin-top: -2px;
+    width: 100px;
+    z-index: 2;
+}
+.accordion-item:nth-child(3) #one-heading {
+    font-family: "Clash Display", sans-serif;
+    font-size: 25px;
+}
+.accordion-body.acc-4 .col-md-6:nth-child(2){
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 40px;
+}
+.card-part {
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-img-5 {
+    position: relative;
+    bottom: -26px;
+    z-index: 2;
+}
+
+.header-img-5 img{
+  width: 200px;
+
+}
+.card-header {
+    position: static;
+  }
+  .acc-5 .accor-5-card-2 {
+    height: 190px;
+}
+.header-img-6 img{
+ width: 100px;
+}
+.header-img-6{
+ position: relative;
+ top: 21px;
+}
+.acc-6 .img-accor-6 {
+    justify-content: center;
+    width: 100%;
+}
+.accor-6 {
+   text-align: center;
+}
+.accordion-body.acc-6 h1{
+    padding-top: 50px;
+}
+.accor-6 {
+    display: flex;
+    justify-content: end;
+    border: none;
+    position: relative;
+    margin-top: 27px;
+}
+.acc-6 .img-accor-6 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+}
+.carding-7 .header-image img {
+    position: relative;
+    right: 249px;
+    top: -1px;
+    width: 100px;
+}
+.gridind-images-gallery {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    grid-template-rows:auto;
+    gap: 5px;
+}
+.carding-8 .accordion-body h1 {
+    padding: 20px 10px;
+    font-size: 47px;
+}
+.carding-8 .accordion-body {
+    padding-top: 20px;
+}
+.header-img-8 {
+    position: relative;
+    top: -2px;
+}
+.counting-div{
+    text-align: center;
+}
+.accordion-item:not(:first-of-type) {
+
+    border: none;
+}
+.header-img-6 {
+    /* background-color: black; */
+    margin-top: -2px;
+}
+}
