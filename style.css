@@ -186,7 +186,7 @@ h1 {
 .accordion-button {
   padding: 0px !important;
 }
-.accordion-2 .accordion-body .content{
+.accordion-2 .accordion-body .content {
   font-size: 24px;
   width: 90%;
   text-align: justify;
@@ -508,7 +508,7 @@ nav {
 .gridind-images-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 500px 150px 300px 150px 300px 100px 100px 300px 150px 150px 300px 200px 600px 900px 300px 600px 300px 150px 100px auto;
+  grid-template-rows: 500px 150px 300px 150px 300px 100px 100px 300px 150px 150px 300px 300px 600px 500px 300px 400px 300px 150px 200px 400px 400px 400px;
   gap: 20px; /* Added gap between grid items */
 }
 
@@ -613,6 +613,152 @@ nav {
   margin-right: 150px;
 }
 
-.accordion-body .content .contentBx .card-title{
+.accordion-body .content .contentBx .card-title {
   padding-left: 0px !important;
 }
+
+/* Form */
+.form-background {
+  background: linear-gradient(
+      85deg,
+      rgba(89, 42, 255, 0.5) 35%,
+      rgba(249, 160, 254, 0.5)
+    ),
+    url(https://rootsbmd.com/wp-content/uploads/2023/05/ezgif.com-gif-maker.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  padding: 50px 0px;
+  padding-top: 80px;
+}
+.form-background .content-form {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+.form-background .content-form .content-h2-form {
+  display: flex;
+  align-items: center;
+}
+.form-background .content-form .content-h2-form h2 {
+  color: transparent; /* Changed color to transparent */
+  font-family: "Clash Display", Sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  -webkit-text-stroke-width: 1px;
+  stroke-width: 1px;
+  -webkit-text-stroke-color: #cdff00;
+  stroke: #cdff00;
+}
+
+.form-background .content-form .img-content-form img {
+  width: 54px;
+  position: relative;
+  animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.form-background .content-form .img-content-form {
+  margin-left: 10px;
+  position: relative;
+  bottom: 30px;
+}
+.form-background .content-form .title-2 {
+  font-size: 60px;
+  color: white;
+  font-family: "Clash Display", Sans-serif;
+  line-height: 10px;
+}
+.needs-validation input{
+  background-color: white;
+  opacity: 0.5;
+  font-family: "Clash Display", Sans-serif;
+}
+.needs-validation label{
+  color: white;
+  font-weight: 600;
+}
+.needs-validation h2{
+  color: white;
+  font-family: "Clash Display", Sans-serif;
+  font-size: 40px;
+}
+.needs-validation textarea{
+  background-color: white;
+  opacity: 0.5;
+  font-family: "Clash Display", Sans-serif;
+}
+.needs-validation button{
+  font-family: "Clash Display", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ccfc04;
+  padding: 10px 30px;
+}
+.needs-validation button:hover{
+  background-color: #ccfc04;
+  color: black;
+}
+.footer-content{
+  padding: 50px 0px;
+}
+.footer-content-1{
+  border-bottom: 2px solid white;
+  font-family: "Clash Display", Sans-serif;
+  margin-bottom: 50px;
+}
+.footer-content-1 h1, .footer-content h5{
+color: white;
+}
+.footer-content-1 .button-footer{
+  display: flex;
+  align-items: center;
+}
+.footer-content-1 .button-footer a{
+text-decoration: none;
+color: black;
+background-color:#ccfc04 ;
+padding: 10px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 5px;
+}
+.footer-content-1 .button-footer i{
+padding-left: 10px;
+}
+.footer-contact img{
+  width: 200px;
+}
+.footer-contact{
+  color: white;
+}
+.footer-contact a{
+  text-decoration: none;
+  color: white;
+}
+.footer-contact ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.footer-contact ul li{
+padding: 5px 0px;
+color: white;
+line-height: 20px;
+}
+.icons-social-footer i {
+font-size: 20px;
+padding-left: 10px;
+margin-top: 10px;
+}
+

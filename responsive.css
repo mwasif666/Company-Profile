@@ -22,6 +22,8 @@
 }
 .salogon {
     padding-top: 42px;
+    position: relative;
+    right: 20px;
 }
 .accordion-1-body {
     height: 68vh;
@@ -171,5 +173,16 @@
 .header-img-6 {
     /* background-color: black; */
     margin-top: -2px;
+}
+.salogon ul li:nth-child(1) {
+    border-right: 3px solid black;
+    height: 28px;
+}
+.salogon ul li:nth-child(2) {
+    border-right: 3px solid black;
+    height: 28px;
+}
+.form-background .content-form .title-2 {
+    line-height: 50px;
 }
 }
