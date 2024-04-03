@@ -109,6 +109,7 @@
   }
   .acc-5 .accor-5-card-2 {
     height: 190px;
+    margin: 10px 0px;
 }
 .header-img-6 img{
  width: 100px;
@@ -183,6 +184,25 @@
     height: 28px;
 }
 .form-background .content-form .title-2 {
-    line-height: 50px;
+    line-height: 23px;
+    font-size: 40px;
+}
+.content3 {
+    flex-direction: column;
+}
+.img-main {
+    position: relative;
+    right: 12px;
+  }
+  .form-background .content-form .content-h2-form h2 {
+    font-size: 68px;
+
+}
+.form-background .content-form .img-content-form img {
+    width: 40px;
+}
+.form-background .content-form {
+    height: fit-content;
+    padding-bottom: 50px;
 }
 }
